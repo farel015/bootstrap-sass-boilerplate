@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "bootstrap-sass boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass:assets/css"
+  },
+  "author": "Farel Akbar",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.36.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
